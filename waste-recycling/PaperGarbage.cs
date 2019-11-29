@@ -1,6 +1,6 @@
 namespace WasteRecycling
 {
-    public class PaperGarbage
+    public class PaperGarbage : Garbage
     {
     }
 }
