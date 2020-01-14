@@ -6,7 +6,7 @@ namespace WasteRecycling
 
         public Garbage(string name)
         {
-            this.Name = name;
+            Name = name;
         }
     }
 }

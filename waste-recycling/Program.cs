@@ -21,7 +21,7 @@ namespace WasteRecycling
             */
 
             // We create the dustbin where the garbages will be thrown.
-            Dustbin dustbin = new Dustbin("Jenny's handsome");
+            Dustbin dustbin = new Dustbin("Blue");
 
             // Showing the contents of the dustbin for the sake of seeing something on the terminal :)
             dustbin.DisplayContents();

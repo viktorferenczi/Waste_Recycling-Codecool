@@ -5,13 +5,13 @@ namespace WasteRecycling
         public bool Cleaned { set; get; }
 
 
-        public PlasticGarbage(string name, bool cleaned)
+        public PlasticGarbage(string name, bool cleaned) : base(name)
         {
             Name = name;
             Cleaned = cleaned;
         }
 
-        void Clean()
+        public void Clean()
         {
             Cleaned = true;
         }
