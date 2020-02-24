@@ -77,7 +77,7 @@ namespace WasteRecycling.Tests
             Assert.AreEqual(dustbin.HouseWasteContent.Length, 0);
         }
 
-        /*
+        
         // Uncomment this test case.
         // What happens?
         // Why?
@@ -88,6 +88,6 @@ namespace WasteRecycling.Tests
             Dustbin dustbin = new Dustbin("red");
             Assert.Throws<DustbinContentException>(() => dustbin.ThrowOutGarbage(myString));
         }
-        */
+        
     }
 }

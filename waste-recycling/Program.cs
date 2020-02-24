@@ -21,7 +21,7 @@ namespace WasteRecycling
             */
 
             // We create the dustbin where the garbages will be thrown.
-            Dustbin dustbin = new Dustbin("Blue");
+            Dustbin dustbin = new Dustbin("Jenny's handsome");
 
             // Showing the contents of the dustbin for the sake of seeing something on the terminal :)
             dustbin.DisplayContents();
@@ -46,13 +46,16 @@ namespace WasteRecycling
             // Throws out the milk jug.
             dustbin.ThrowOutGarbage(milkJug);
 
-            // Empties the contents.
-            dustbin.EmptyContents();
+           
 
             // Displaying what's in there.
             dustbin.DisplayContents();
 
+            // Empties the contents.
+            dustbin.EmptyContents();
+
             // Aaaaaaand the scene fades out!
+
         }
     }
 }
